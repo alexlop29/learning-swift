@@ -22,3 +22,21 @@ print(VARIABLE)
 CONSTANT = 20
 ```
 [Link](https://swiftfiddle.com/zlgyyljhtzd63jy37qh2gvk6km)
+
+> Providing a value when you create a constant or variable lets the compiler infer its type.
+> ...
+> Specify the type by writing it after the variable, separated by a colon.
+
+```
+let DOUBLE: Double = 20.0
+print(DOUBLE)
+```
+[Link](https://swiftfiddle.com/hymigzokrbexdmo7howfq3qzxy)
+
+> If you need to convert a value to a different type, explicitly make an instance of the desired type.
+```
+let DOUBLE: Double = 20.0
+
+print(type(of: String(DOUBLE)))
+```
+[Link](https://swiftfiddle.com/orbvwaoq5vdunckceudbby6ns4)
